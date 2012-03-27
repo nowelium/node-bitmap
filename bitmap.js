@@ -536,8 +536,10 @@ Bitmap.prototype.mapColor = function(bmpBuf, bitCount){
 
   if(this.BITCOUNT_2 == bitCount){
     for(var i = 0; i < length; ++i){
-      var paletteValue = bmpBuf.readUInt8(i);
+      var paletteValue = bmpBuf[i];
       var bin = paletteValue.toString(2);
+      bin = new Array(8 - bin.length).join('0') + bin;
+
       for(var j = 0; j < bin.length; ++j){
         var paletteIndex = parseInt(bin.substring(j, j + 1), 10);
         var palette = this.colorPalette[paletteIndex];
