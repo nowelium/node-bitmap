@@ -1,6 +1,6 @@
 {
   "author": "Yusuke Hata",
-  "name": "bitmap",
+  "name": "node-bitmap",
   "description": "pure javascript Bitmap library",
   "version": "0.0.1",
   "repository": {
