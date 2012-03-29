@@ -6,7 +6,7 @@ Bitmap library Node.JS
 
 via npm:
 
-    $ npm install socket.io-store-memcached
+    $ npm install node-bitmap
 
 ## License 
 
