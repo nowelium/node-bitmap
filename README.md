@@ -2,6 +2,12 @@
 
 Bitmap library Node.JS
 
+## Installation
+
+via npm:
+
+    $ npm install socket.io-store-memcached
+
 ## License 
 
 (The MIT License)
